@@ -46,56 +46,36 @@ Xyz-Baileys adalah bot WhatsApp berbasis Node.js yang menggunakan library `@whis
 ```
 
 ### Dependensi
+####Berikut adalah dependensi utama yang digunakan:
+   - @whiskeysockets/baileys: Library inti untuk WhatsApp Multi-Device.
+   - fluent-ffmpeg: Pengolahan media (video/audio).
+   - jimp: Manipulasi gambar.
+   - node-gtts: Text-to-speech.
+   - yt-search: Pencarian video YouTube.
+   - node-cron: Penjadwalan tugas.
+👉 Lihat package.json untuk daftar lengkap dibawah.
 
-Berikut adalah dependensi utama yang digunakan:
-@whiskeysockets/baileys: Library inti untuk WhatsApp Multi-Device.
-fluent-ffmpeg: Pengolahan media (video/audio).
-jimp: Manipulasi gambar.
+## Rekomendasi Tambahan
 
-node-gtts: Text-to-speech.
-
-yt-search: Pencarian video YouTube.
-
-node-cron: Penjadwalan tugas.
-
-
-👉 Lihat package.json untuk daftar lengkap.
-
-Rekomendasi Tambahan
-
-Untuk meningkatkan fungsionalitas, pertimbangkan menambahkan:
-
-@ffmpeg-installer/ffmpeg: Pastikan fluent-ffmpeg berjalan di semua sistem.
-
-dotenv: Kelola variabel lingkungan dengan aman.
-
-express: Tambahkan API endpoint untuk kontrol bot.
-
-socket.io: Komunikasi real-time dengan aplikasi lain.
+###Untuk meningkatkan fungsionalitas, pertimbangkan menambahkan:
+   - @ffmpeg-installer/ffmpeg: Pastikan fluent-ffmpeg berjalan di semua sistem.
+   - dotenv: Kelola variabel lingkungan dengan aman.
+   - express: Tambahkan API endpoint untuk kontrol bot.
+   - socket.io: Komunikasi real-time dengan aplikasi lain.
 
 
-Kontribusi
+## Disclaimer
 
-Kami menyambut kontribusi dari komunitas! Silakan buat pull request atau laporkan isu di GitHub Issues.
+   - Proyek ini tidak berafiliasi, disetujui oleh, atau terhubung secara resmi dengan WhatsApp Inc., Meta Platforms, Inc., atau anak perusahaan mereka. Situs resmi WhatsApp dapat ditemukan di whatsapp.com. "WhatsApp", beserta nama, logo, dan merek terkait adalah milik intelektual dari pemiliknya masing-masing.
 
-Disclaimer
+   - Versi modifikasi dari Baileys ini dibuat dengan tujuan membantu para developer, namun harus digunakan secara bertanggung jawab. Pengembang sangat tidak menyarankan penggunaan yang melanggar Ketentuan Layanan WhatsApp, termasuk tapi tidak terbatas pada:
+       - spam,
+       - pesan otomatis massal,
+       - stalking,
+       - scraping data pengguna,
+       - atau penggunaan lain yang melanggar privasi, persetujuan, atau integritas platform.
 
-Proyek ini tidak berafiliasi, disetujui oleh, atau terhubung secara resmi dengan WhatsApp Inc., Meta Platforms, Inc., atau anak perusahaan mereka. Situs resmi WhatsApp dapat ditemukan di whatsapp.com. "WhatsApp", beserta nama, logo, dan merek terkait adalah milik intelektual dari pemiliknya masing-masing.
-
-Versi modifikasi dari Baileys ini dibuat dengan tujuan membantu para developer, namun harus digunakan secara bertanggung jawab. Pengembang sangat tidak menyarankan penggunaan yang melanggar Ketentuan Layanan WhatsApp, termasuk tapi tidak terbatas pada:
-
-spam,
-
-pesan otomatis massal,
-
-stalking,
-
-scraping data pengguna,
-
-atau penggunaan lain yang melanggar privasi, persetujuan, atau integritas platform.
-
-
-Proyek ini disediakan apa adanya dan harus digunakan dengan sangat hati-hati. Kamu bertanggung jawab penuh atas bagaimana kamu menggunakan library ini. Pastikan penggunaannya etis, legal, dan menghormati hak serta privasi orang lain.
+   - Proyek ini disediakan apa adanya dan harus digunakan dengan sangat hati-hati. Kamu bertanggung jawab penuh atas bagaimana kamu menggunakan library ini. Pastikan penggunaannya etis, legal, dan menghormati hak serta privasi orang lain.
 
 > ⚠️ Gunakan dengan risiko sendiri. Hormati aturan platform, batasan pengguna, dan tetap pada jalur hukum serta moral.
 
