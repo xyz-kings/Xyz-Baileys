@@ -24,33 +24,32 @@ Xyz-Baileys adalah bot WhatsApp berbasis Node.js yang menggunakan library `@whis
    ```bash
    git clone https://github.com/xyz-kings/Xyz-Baileys.git
    cd Xyz-Baileys
+   ```
 
 2. Install dependensi:
- ```bash
+    ```bash
    npm install
- ```
+    ```
 4. Jalankan bot:
+    ```bash
+   npm start
+    ```
+
+
+## Struktur Direktori
 ```bash
-npm start
-```
-
-
-Struktur Direktori
-
 ├── lib/              # Library dan utilitas
 ├── src/              # Source code bot
 ├── media/            # File media (gambar, video, dll.)
 ├── index.js          # Entry point
 └── package.json      # Konfigurasi proyek
+```
 
-Dependensi
+### Dependensi
 
 Berikut adalah dependensi utama yang digunakan:
-
 @whiskeysockets/baileys: Library inti untuk WhatsApp Multi-Device.
-
 fluent-ffmpeg: Pengolahan media (video/audio).
-
 jimp: Manipulasi gambar.
 
 node-gtts: Text-to-speech.
