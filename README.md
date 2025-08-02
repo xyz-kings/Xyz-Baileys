@@ -81,17 +81,11 @@ Xyz-Baileys adalah bot WhatsApp berbasis Node.js yang menggunakan library `@whis
 
 
 
-Lisensi
 
-MIT License
+## Template package.json Baru
 
-
----
-
-Template package.json Baru
-
-Berikut adalah template package.json untuk repo baru Anda, berdasarkan package.json asli dengan beberapa penyesuaian dan tambahan rekomendasi:
-
+### Berikut adalah template package.json untuk repo baru Anda, berdasarkan package.json asli dengan beberapa penyesuaian dan tambahan rekomendasi:
+```bash
 {
   "name": "xyz-baileys",
   "version": "1.0.0",
@@ -160,43 +154,30 @@ Berikut adalah template package.json untuk repo baru Anda, berdasarkan package.j
     "socket.io": "^4.5.4"
   }
 }
+```
 
-Penjelasan package.json
-
-Nama & Versi: xyz-baileys, versi awal 1.0.0.
-
+## Penjelasan package.json
+> Nama & Versi: xyz-baileys, versi awal 1.0.0.
 Repository: https://github.com/xyz-kings/Xyz-Baileys.git.
-
 Author: xyz-kings.
-
 Dependencies: Semua dependensi asli dipertahankan + rekomendasi (@ffmpeg-installer/ffmpeg, dotenv, express, socket.io).
-
 Scripts: Menambahkan test sebagai placeholder.
-
-
 
 ---
 
-Langkah Selanjutnya
-
-1. Clone repo baru Anda:
-
+## Langkah Selanjutnya
+   - 1. Clone repo baru Anda:
+    ```bash
 git clone https://github.com/xyz-kings/Xyz-Baileys.git
 cd Xyz-Baileys
-
-
-2. Buat file README.md dan copy-paste isi dokumen ini.
-
-
-3. Buat file package.json dan copy-paste template di atas.
-
-
-4. Salin folder lib, src, media, dan file lain dari repo asli ZVex-Baileys ke repo baru.
-
-
-5. Jalankan:
-
-npm install
+     ```
+   - 2. Buat file README.md dan copy-paste isi dokumen ini.
+   - 3. Buat file package.json dan copy-paste template di atas.
+   - 4. Salin folder lib, src, media, dan file lain dari repo asli ZVex-Baileys ke repo baru.
+   - 5. Jalankan:
+     ```bash
+     npm install
+     ```
 
 
 6. Uji bot dengan:
