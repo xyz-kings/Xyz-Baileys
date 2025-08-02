@@ -168,17 +168,17 @@ Scripts: Menambahkan test sebagai placeholder.
 ## Langkah Selanjutnya
    - 1. Clone repo baru Anda:
     ```bash
-     git clone https://github.com/xyz-kings/Xyz-Baileys.git
-     cd Xyz-Baileys 
+      git clone https://github.com/xyz-kings/Xyz-Baileys.git
+      cd Xyz-Baileys 
      ```
    - 2. Buat file README.md dan copy-paste isi dokumen ini.
    - 3. Buat file package.json dan copy-paste template di atas.
    - 4. Salin folder lib, src, media, dan file lain dari repo asli ZVex-Baileys ke repo baru.
    - 5. Jalankan:
-     
      ```bash
      npm install
      ```
    - 6. Uji bot dengan:
-
-npm start
+     ```bash
+     npm start
+    ```
